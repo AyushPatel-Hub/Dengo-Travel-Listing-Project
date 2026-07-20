@@ -168,6 +168,23 @@ body{
     z-index: 9999 !important;  
     text-align: center !important;     /* Ensures it floats on top of all other content */
   }
+  .hide{
+    display: none;
+  }
+  .tax-toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+  }
+  .dengo{
+    position: fixed;
+    top: 9px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
  

@@ -108,14 +108,34 @@ footer{
   width: 100%;
   margin-bottom: 0;
 }
+@media screen and (max-width:610px){
+  .main{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+    
+  }
+  .text{
+    font-size: 0.6rem;
+  }
+  .icon{
+    margin-bottom: 15px;
+    font-size: 4rem;
+  }
+  .main h1{
+    font-size: 5rem;
+  }
+}
 
   </style>
 </head>
 <body>
 
 <div class="main">
-  
-  <h1 class="heading"><i class="fa-brands fa-dyalog" style="color: #00AD83;"></i>ENGO</h1>
+  <div class="icon"><i class="fa-brands fa-dyalog" style="color: #00AD83;"></i></div>
+  <div class="heading"><h1>ENGO</h1></div>
 </div>
 <div class="text">
   <h2>
