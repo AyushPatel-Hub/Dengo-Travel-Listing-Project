@@ -130,6 +130,9 @@ app.use("/",user);
 
 
 
+app.get("/",(req,res)=>{
+    res.render("./listings/home.ejs");
+})
 app.get("/home",(req,res)=>{
     res.render("./listings/home.ejs");
 })
