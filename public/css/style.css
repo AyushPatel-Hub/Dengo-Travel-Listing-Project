@@ -179,11 +179,29 @@ body{
   }
   .dengo{
     position: fixed;
-    top: 9px;
-    left: 5px;
+    top: 12px;
+    left: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .showcard{
+    /* margin-left: 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+  }
+  .card1{
+    margin-left: 0;
+  }
+  .btns1{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+  }
+  .showcard h1{
+    text-align: center;
   }
 }
 
