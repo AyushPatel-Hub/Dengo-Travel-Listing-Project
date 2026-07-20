@@ -1,0 +1,27 @@
+<% layout("/layouts/boilerplate") %>
+
+
+ <h1 style="text-align: center ;">Do You Want to Delete This Listing?</h1>
+ <br>
+ <br>
+<div class="col-6 offset-2">
+<div class="card">
+  <img src="<%=editData.image.url%>" class="card-img-top show-img" alt="...">
+  <div class="card-body">
+   <h1 class="card-text"><%=editData.title%></h1>
+    <p class="card-text"><%= editData.discription %></p>
+    <p class="card-text">&#8377;<%=editData.price.toLocaleString("en-IN")%></p>
+     <p class="card-text"><%=editData.location%></p>
+     <p class="card-text"><%=editData.country%></p>
+  </div>
+</div>
+  <div class="btns">
+    <form method="POST" action="/listings/<%=editData._id%>?_method=DELETE">
+        <button class="btn btn-danger">Yes,Delete</button>
+    </form>
+    <form>
+        <button class="btn btn-dark"><a style="text-decoration: none; color: white;" href="/listings">No,Leave this</a></button>
+    </form>
+  </div>
+    
+    </div>
