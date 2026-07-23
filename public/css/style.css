@@ -116,6 +116,7 @@ body{
      align-items: center;
     flex-direction: column;
     opacity: 0.8;
+    
 }
 .ui-element p{
     margin-bottom: 0;
@@ -137,6 +138,9 @@ body{
     border-radius: 30px;
     height: 3rem;
     width: 12rem;
+}
+.soonlinks{
+    color: black;
 }
 @media screen and (max-width:610px) {
     .show{

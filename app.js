@@ -129,7 +129,9 @@ app.use("/listings/:id/reviews",review);
 app.use("/",user);
 
 
-
+app.get("/comingsoon",(req,res)=>{
+    res.render("./listings/comingsoon.ejs");
+})
 app.get("/",(req,res)=>{
     res.render("./listings/home.ejs");
 })
