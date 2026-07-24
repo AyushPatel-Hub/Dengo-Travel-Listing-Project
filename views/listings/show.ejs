@@ -89,6 +89,13 @@
 <!-- <script src="/js/map.js">
 </script>   -->
 <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Make sure maplibregl is loaded
+    if (typeof maplibregl === "undefined") {
+      console.error("MapLibre GL library failed to load.");
+      return;
+    }})
+    
   // 1. Initialize the map with a temporary default view (centered on India)
   const map = new maplibregl.Map({
     style: 'https://tiles.openfreemap.org/styles/liberty',
