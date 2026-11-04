@@ -61,6 +61,3 @@ Because this application is hosted on **Render's Free Tier**, the server automat
 To clone and run this application locally, you will need Node.js and MongoDB installed on your system.
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/yourusername/dengo.git](https://github.com/yourusername/dengo.git)
-   cd dengo
